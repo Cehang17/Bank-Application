@@ -1,11 +1,8 @@
 import java.util.Scanner;
 
-import javax.swing.InputMap;
-import javax.swing.text.AbstractDocument.BranchElement;
-
-public class HW220315024 {
-    static final String USERNAME = "cehang";
-    static final String PASSWORD = "qwerty";
+public class BankApplication {
+    static final String USERNAME = "user";
+    static final String PASSWORD = "1234";
     static double accountBalance = 0;
     public static boolean authenticateUser(String s1,String s2){
         if (USERNAME.equals(s1) && PASSWORD.equals(s2))
